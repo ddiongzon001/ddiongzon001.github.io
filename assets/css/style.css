@@ -1,0 +1,23 @@
+/* Body of the About Page */
+body{
+    background-image: url("../images/off_white_background.PNG")
+}
+
+/* Header Section Format */
+h1{
+    width: 30%;
+    background: #4aaaa5;
+    color: white;
+}
+
+/* Container Format */
+div.top{
+    background: white;
+    padding: 20px 0;
+
+}
+
+header{
+    color: #4aaaa5;
+    text-align: center;
+}
