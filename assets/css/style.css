@@ -14,17 +14,25 @@ h1{
 }
 
 h3, a{
-    /* margin: 0 10px 0 10px; */
     padding: 40px 25px 40px 25px;
     color: #cccccc;
     display: inline;
+    text-decoration: none;
+}
+
+a:hover{
+    padding: 40px 25px 40px 25px;
+    background: #cccccc;
+    color: white;
+    text-decoration: none;
+
 }
 
 a.currentpage{
     padding: 40px 25px 40px 25px;
     background: #4aaaa5;
     color: white;
-    /* margin: 0 15px 0 15px; */
+    text-decoration: none;
 }
 
 
