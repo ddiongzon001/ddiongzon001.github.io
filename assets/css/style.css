@@ -14,10 +14,17 @@ h1{
 }
 
 h3, a{
-    margin: 0 5px 0 5px;
-    padding: 0;
+    /* margin: 0 10px 0 10px; */
+    padding: 40px 25px 40px 25px;
     color: #cccccc;
     display: inline;
+}
+
+a.currentpage{
+    padding: 40px 25px 40px 25px;
+    background: #4aaaa5;
+    color: white;
+    /* margin: 0 15px 0 15px; */
 }
 
 
@@ -41,6 +48,5 @@ header{
 
 nav{
     float: right;
-    margin-right: 15%;
-    padding: 40px;
+    margin: 40px 5px 40px 5px;
 }
