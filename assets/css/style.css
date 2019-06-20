@@ -25,6 +25,7 @@ h3{
   position: relative;
 }
 
+/* Links Format */
 a{
   padding: 0px 25px 0px 25px;
   color: #cccccc;
@@ -46,6 +47,7 @@ a.currentpage{
   text-decoration: none;
 }
 
+/* Paragraph Format */
 p{
   color: #777777;
   font-family: Arial, Helvetica, sans-serif;
