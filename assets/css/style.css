@@ -20,6 +20,51 @@ h1.center{
   border-bottom: 3px solid #cccccc;
 }
 
+h1.easyimage{
+  margin:0;
+  padding: 0;
+  position: absolute;
+  background: #4aaaa5;
+  color: white;
+  padding-top: 20px;
+  margin-top: 100px;
+  width: 216px;
+  height: 50px;
+  z-index: 2;
+  font-weight: normal;
+
+}
+
+h1.modimage{
+  margin:0;
+  padding: 0;
+  position: absolute;
+  background: #4aaaa5;
+  color: white;
+  padding-top: 20px;
+  margin-top: 100px;
+  width: 216px;
+  height: 50px;
+  z-index: 2;
+  font-weight: normal;
+
+}
+
+h1.hardimage{
+  margin:0;
+  padding: 0;
+  position: absolute;
+  background: #4aaaa5;
+  color: white;
+  padding-top: 20px;
+  margin-top: 100px;
+  width: 216px;
+  height: 50px;
+  z-index: 2;
+  font-weight: normal;
+
+}
+
 h2{
   color: #777777;
 }
@@ -52,62 +97,63 @@ a.currentpage{
 
 a.easy{
   float: left;
-  margin: 20px;
   width: 215px;
   height: 175px;
   display: block;
   background-image: url("../images/scratch_easy.PNG");
-  border: 2px solid #777777;
+  border: 0.5px solid #cccccc;
+  z-index: 1;
+  position: relative;
 
 }
 
 a.easy:hover{
-  margin-top: 20px;
   width: 215px;
   height: 175px;
   display: block;
   background-image: url("../images/scratch_easy_hover.PNG");
-  border: 2px solid #4aaaa5;
+  z-index: 1;
+  position: relative;
 }
 
 a.mod{
   float: left;
-  margin-top: 20px;
   width: 215px;
   height: 175px;
   display: block;
   background-image: url("../images/scratch_moderate.PNG");
-  border: 2px solid #777777;
+  border: 0.5px solid #cccccc;
+  z-index: 1;
+  position: relative;
+  
 }
 
 a.mod:hover{
-  margin-top: 20px;
   width: 215px;
   height: 175px;
   display: block;
   background-image: url("../images/scratch_moderate_hover.PNG");
-  border: 2px solid #4aaaa5;
+  
   
 }
 
 a.hard{
   float: left;
-  margin: 20px;
   width: 215px;
   height: 175px;
   display: block;
   background-image: url("../images/scratch_hard.PNG");
-  border: 2px solid #777777;
+  border: 0.5px solid #cccccc;
+  z-index: 1;
+  position: relative;
 
 }
 
 a.hard:hover{
-  margin-top: 20px;
   width: 215px;
   height: 175px;
   display: block;
   background-image: url("../images/scratch_hard_hover.PNG");
-  border: 2px solid #4aaaa5;
 
 }
 
@@ -146,6 +192,16 @@ div.bottom{
   text-align: center;
 
 }
+
+div.container{
+  position: relative;
+  text-align: center;
+  float: left;
+  width: 215px;
+  height: 175px;
+  margin: 20px;
+}
+
 
 /* Sections Format */
 header{
