@@ -29,13 +29,13 @@ h3{
 }
 
 /* Links Format */
-a{
+a.nav{
   padding: 0px 25px 0px 25px;
   color: #cccccc;
   text-decoration: none;
 }
 
-a:hover{
+a.nav:hover{
   padding: 28px 25px 28px 25px;
   background: #cccccc;
   color: white;
@@ -48,6 +48,67 @@ a.currentpage{
   background: #4aaaa5;
   color: white;
   text-decoration: none;
+}
+
+a.easy{
+  float: left;
+  margin: 20px;
+  width: 215px;
+  height: 175px;
+  display: block;
+  background-image: url("../images/scratch_easy.PNG");
+  border: 2px solid #777777;
+
+}
+
+a.easy:hover{
+  margin-top: 20px;
+  width: 215px;
+  height: 175px;
+  display: block;
+  background-image: url("../images/scratch_easy_hover.PNG");
+  border: 2px solid #4aaaa5;
+}
+
+a.mod{
+  float: left;
+  margin-top: 20px;
+  width: 215px;
+  height: 175px;
+  display: block;
+  background-image: url("../images/scratch_moderate.PNG");
+  border: 2px solid #777777;
+}
+
+a.mod:hover{
+  margin-top: 20px;
+  width: 215px;
+  height: 175px;
+  display: block;
+  background-image: url("../images/scratch_moderate_hover.PNG");
+  border: 2px solid #4aaaa5;
+  
+}
+
+a.hard{
+  float: left;
+  margin: 20px;
+  width: 215px;
+  height: 175px;
+  display: block;
+  background-image: url("../images/scratch_hard.PNG");
+  border: 2px solid #777777;
+
+}
+
+a.hard:hover{
+  margin-top: 20px;
+  width: 215px;
+  height: 175px;
+  display: block;
+  background-image: url("../images/scratch_hard_hover.PNG");
+  border: 2px solid #4aaaa5;
+
 }
 
 /* Paragraph Format */
@@ -140,6 +201,12 @@ input[type=submit]{
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-style: bold;
+
+}
+
+input[type=submit]:hover{
+  background: #429894;
+  color: white;
 
 }
 
