@@ -247,7 +247,10 @@ footer{
 input[type=text]{
   color: #777777;
   font-family: Arial, Helvetica, sans-serif;
-  width: 100%;
+  width: 95%;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+  padding: 10px 15px;
 }
 
 input[type=submit]{
@@ -257,27 +260,46 @@ input[type=submit]{
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-style: bold;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+  padding: 10px 15px;
 
 }
 
 input[type=submit]:hover{
   background: #429894;
   color: white;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+  padding: 10px 15px;
 
 }
 
 textarea{
   color: #777777;
   font-family: Arial, Helvetica, sans-serif;
-  width: 100%;
+  width: 95%;
   height: 200px;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+  padding: 10px 15px;
 }
 
 /* media queries addition */
 @media only screen and (max-width: 980px) {
+  header {
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
   nav{
     padding: 27px 40px 27px 20px;
   }
+
+  div.middle{
+    padding: 75px 100px 125px 100px;
+  }
+  
 }
 
 @media only screen and (max-width: 768px) {
@@ -289,6 +311,10 @@ textarea{
 
   nav{
     padding: 27px 0px 27px 0px;
+  }
+
+  div.middle{
+    padding: 45px 80px 135px 80px;
   }
 }
 
@@ -305,5 +331,9 @@ textarea{
   }
   h3{
     margin-left: 10%
+  }
+
+  div.middle{
+    padding: 100px 50px 100px 50px;
   }
 }
