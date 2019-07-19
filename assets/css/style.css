@@ -16,7 +16,6 @@ body.contact {
   -o-background-size: cover;
 }
 
-
 a.portfolioTitle{
   color: white;
 }
@@ -25,6 +24,7 @@ a.portfolioTitle:hover{
   color: #343A40;
   text-decoration: none;
 }
+
 
 a.githubButton{
   color: #343A40;
