@@ -18,11 +18,11 @@ body.contact {
   -o-background-size: cover;
 }
 
-a.portfolioTitle{
+a.portfolioTitle, a.aboutMeTitle, .btn-outline-light{
   color: white;
 }
 
-a.portfolioTitle:hover{
+a.portfolioTitle:hover, a.aboutMeTitle:hover, .btn-outline-light:hover{
   color: #343A40;
   text-decoration: none;
 }
@@ -109,4 +109,12 @@ a.githubButton:hover{
 .mb-0,
 .my-0 {
   margin-bottom: 0 !important;
+}
+
+.aboutMeHeader{
+  border-radius: 100%;
+}
+
+.aboutMeButtonArea{
+display: inline;
 }
