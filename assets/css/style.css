@@ -7,3 +7,11 @@
   -o-background-size: cover;
   background-size: cover;
 }
+
+a{
+  color: white;
+}
+
+a:hover{
+  color: darkgrey;
+}
