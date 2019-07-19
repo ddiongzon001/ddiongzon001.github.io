@@ -8,10 +8,21 @@
   background-size: cover;
 }
 
-a{
+
+a.portfolioTitle{
   color: white;
 }
 
-a:hover{
-  color: darkgrey;
+a.portfolioTitle:hover{
+  color: #343A40;
+  text-decoration: none;
+}
+
+a.githubButton{
+  color: #343A40;
+}
+
+a.githubButton:hover{
+  color: white;
+  text-decoration: none;
 }
