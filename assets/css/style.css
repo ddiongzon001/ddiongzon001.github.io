@@ -8,6 +8,14 @@
   background-size: cover;
 }
 
+body.contact {
+  background: url('../images/09BLACKHOLEJP1-superJumbo.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
 
 a.portfolioTitle{
   color: white;
