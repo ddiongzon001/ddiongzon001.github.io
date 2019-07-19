@@ -5,65 +5,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+
+    <!-- CSS link -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <title>Student-Bio</title>
+    <title>Dealan Diongzon | Portfolio</title>
 </head>
 
 <body>
-   
-    <div class=all>
-        <!-- Top Border Section -->
-        <!-- Includes Header & Navigation -->
-        <div class=top>
-        
-             <header>
-                <h1 class=top>Dealan Diongzon</h1>
-            </header>
-        
-            <nav>
-                <h3>
-                    <a href="index.html" class=nav>About</a>
-                </h3>
-        
-                <h3>
-                    <a href="portfolio.html" class=currentpage>Portfolio</a>
-                </h3>
-        
-                <h3>
-                    <a href="contact.html" class=nav>Contact</a>
-                </h3>
-            </nav>
-                
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Dealan Diongzon</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        
-        <!-- Center -->
-        <div class=middle>
-            <article>
-                <h1 class=center>Portfolio</h1>
+    </nav>
 
-                
-                <div class=container>
-                    <a href="https://scratch.mit.edu/projects/316832672/" class=easy target="_blank"></a>
-                    <h1 class=easyimage>Easy Scratch</h1>
+    <header>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <!-- Slide One - Set the background image for this slide in the line below -->
+                <div class="carousel-item active"
+                    style="background-image: url('https://source.unsplash.com/RCAhiGJsUUE/1920x1080')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="display-4">First Slide</h3>
+                        <p class="lead">This is a description for the first slide.</p>
+                    </div>
                 </div>
-                <div class=container>
-                    <a href="https://scratch.mit.edu/projects/316837334/" class=mod target="_blank"><a>
-                    <h1 class=modimage>Moderate Scratch</h1>
+                <!-- Slide Two - Set the background image for this slide in the line below -->
+                <div class="carousel-item"
+                    style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1920x1080')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="display-4">Second Slide</h3>
+                        <p class="lead">This is a description for the second slide.</p>
+                    </div>
                 </div>
-                <div class=container>
-                    <a href="https://scratch.mit.edu/projects/316851251/" class=hard target="_blank"></a>
-                    <h1 class=modimage>Hard Scratch</h1>
+                <!-- Slide Three - Set the background image for this slide in the line below -->
+                <div class="carousel-item"
+                    style="background-image: url('https://source.unsplash.com/O7fzqFEfLlo/1920x1080')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="display-4">Third Slide</h3>
+                        <p class="lead">This is a description for the third slide.</p>
+                    </div>
                 </div>
-            </article>
+                <!-- Slide Four - Set the background image for this slide in the line below -->
+                <div class="carousel-item"
+                    style="background-image: url('https://source.unsplash.com/O7fzqFEfLlo/1920x1080')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="display-4">Fourth Slide</h3>
+                        <p class="lead">This is a description for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-            
-        <!-- Bottom Boarder Section -->
-        <div class=bottom>
-            <footer>
-                @Dealan
-            </footer>
-        </div>
-    </div>
-     
+    </header>
+
+    <!-- Page Content -->
+    <section class="py-5">
+        <div class="container">
+            <h1 class="font-weight-light">Half Page Image Slider</h1>
+            <p class="lead">The background images for the slider are set dire
+
+                <!-- Javascript -->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+                <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
+
 </html>
