@@ -1,3 +1,5 @@
+/* Portfolio */
+
 .carousel-item {
   height: 65vh;
   min-height: 350px;
@@ -33,4 +35,78 @@ a.githubButton{
 a.githubButton:hover{
   color: white;
   text-decoration: none;
+}
+
+/* About Me */
+
+.masthead {
+  padding-top: calc(6rem + 74px);
+  padding-bottom: 6rem;
+}
+
+.masthead .masthead-heading {
+  font-size: 2.75rem;
+  line-height: 2.75rem;
+}
+
+.masthead .masthead-subheading {
+  font-size: 1.25rem;
+}
+
+.masthead .masthead-avatar {
+  width: 15rem;
+}
+
+@media (min-width: 992px) {
+  .masthead {
+    padding-top: calc(6rem + 104px);
+    padding-bottom: 6rem;
+  }
+  .masthead .masthead-heading {
+    font-size: 4rem;
+    line-height: 3.5rem;
+  }
+  .masthead .masthead-subheading {
+    font-size: 1.5rem;
+  }
+}
+
+.divider-custom {
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.divider-custom .divider-custom-line {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: #2c3e50;
+  border-radius: 1rem;
+  border-color: #2c3e50 !important;
+}
+
+.divider-custom.divider-light .divider-custom-line {
+  background-color: #fff;
+}
+
+.divider-custom.divider-light .divider-custom-icon {
+  color: #fff !important;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+.mb-0,
+.my-0 {
+  margin-bottom: 0 !important;
 }
