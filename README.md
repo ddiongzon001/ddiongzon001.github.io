@@ -1,38 +1,16 @@
 ## Dealan Diongzon | Portfolio
-==============================
-A little info about your project and/ or overview that explains **what** the project is about.
-
-## Motivation
-A short description of the motivation behind the creation. This should cover **why** the project exists and what drove you to choose this project.
+This website is an overview of my progress of learning how to code.
 
 ## Technologies used and why
-Ex. -
-
-<b>Built with</b>
-- [React](https://reactjs.org/)
-<b>is a lightweight front end library that allowed me to create highly reusable components I could use across my application<b>
-
-## Features
-What makes your project stand out?
-
-## Screenshots
-Include logo/demo screenshot etc.
-
-## Code Example
-Show what your project does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
-
-## Installation
-Provide step by step series of examples and explanations about how to get a development env running.
-
-## How to use?
-If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
+..* HTML - main language to build the portfolio page
+..* CCS - main language to design and format the page
+..* Bootstrap - open-source library to make the website resposive & add buttons
+..* Start Bootstrap - open-source library with templates & snippets to further increase the styling
+..* Font Awesome - open-source library of free to use icons & graphics to add better styling
 
 ## Credits
-Give proper credits. This could be a link to any repo which inspired you to build this project, any blogposts or links to people who contrbuted in this project. 
+..* [About Me Page Reference](https://startbootstrap.com/themes/freelancer/) - Took the header and the avatar and updated to my preferences
+..* [Portfolio Page Reference](https://startbootstrap.com/snippets/half-slider/) - Took the whole snippet (scrolling header and navbar) and updated to my preferences
+..* [Contact Page Reference](https://startbootstrap.com/snippets/full-image-background/) - Took the whole snippet and updated to my preferences
 
-#### Anything else that seems useful
-
-## License
-A short snippet describing the license (MIT, Apache etc)
-
-MIT © [Yourname]()
+MIT © [Dealan]()
